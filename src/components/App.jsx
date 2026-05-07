@@ -4,13 +4,11 @@ import PasswordInput from './PasswordInput'
 import SubmitButton from './SubmitButton'
 
 function App() {
-
   return (
     <div>
-      <PasswordInput/>
-      <SubmitButton/>
+      <PasswordInput />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
