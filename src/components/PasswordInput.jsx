@@ -1,17 +1,10 @@
 function PasswordInput() {
 
   const handleChange = () => {
-    console.log("User is typing");
+    console.log("Entering password...");
   };
 
-  const handleMouseOver = () => {
-    console.log("Mouse over button");
-  };
-
-  const handleMouseOut = () => {
-    console.log("Mouse left button");
-  };
-
+ 
   return (
     <>
       <input
@@ -19,12 +12,7 @@ function PasswordInput() {
         onChange={handleChange}
       />
 
-      <button
-        onMouseOver={handleMouseOver}
-        onMouseOut={handleMouseOut}
-      >
-        Submit Password
-      </button>
+      
     </>
   );
 }
